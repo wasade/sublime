@@ -21,6 +21,12 @@ used to indicate the the split. For instance:
 
     $ sub -n testjob -- grep -i -n export ~/.bash_profile
 
+## Installation
+
+You can install `sub` easily! THe only dependency is [`Click`](http://click.pocoo.org/3/), which is one of best designed Python packages around.
+
+    $ pip install sublime
+
 ## Practical example
 
 In the example below, we're going to submit a simple job in a new directory,
